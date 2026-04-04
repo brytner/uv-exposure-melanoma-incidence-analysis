@@ -1,0 +1,39 @@
+[System]
+Output filename=C:\Users\brytn\CodeYouProjects\uv-exposure-melanoma-incidence-analysis\datasets\seer-stats.csv
+Database name=Incidence - SEER Research Data, 17 Registries, Nov 2024 Sub (2000-2022) - Linked To County Attributes - Time Dependent (1990-2023) Income/Rurality, 1969-2023 Counties
+Title1=SEEE*Stat 04042026
+
+[Session Options]
+Type=Case Listing
+
+[Export Options]
+GZipped=false
+Variable format=labels
+File format=DOS/Windows
+Field delimiter=comma
+Missing character=space
+Fields with delimiter in quotes=true
+Remove thousands separators=true
+Variable names included=true
+Column Variables as Stats=false
+
+[Variables]
+Var1Name=Rural-Urban Continuum Code
+Var1DisplayType=Formatted
+Var2Name=Age recode with single ages and 90+
+Var2DisplayType=Formatted
+Var3Name=Sex
+Var3DisplayType=Formatted
+Var4Name=Year of diagnosis
+Var4DisplayType=Formatted
+Var5Name=Race and origin recode (NHW, NHB, NHAIAN, NHAPI, Hispanic)
+Var5DisplayType=Formatted
+Var6Name=Site recode ICD-O-3 2023 Revision Expanded
+Var6DisplayType=Formatted
+Var7Name=ICD-O-3 Hist/behav, malignant
+Var7DisplayType=Formatted
+Var8Name=Behavior code ICD-O-3
+Var8DisplayType=Formatted
+Var9Name=Combined Summary Stage with Expanded Regional Codes (2004+)
+Var9DisplayType=Formatted
+
